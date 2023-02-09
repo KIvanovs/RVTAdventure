@@ -84,7 +84,7 @@ if (isset($_GET["error"])) {
             <?php }
             }
             echo "</div>
-            </div>
+            
             </div></ul>";
 } 
 $result2->free();
@@ -92,6 +92,21 @@ $conn->close();
 ?> 
     </div>         
     </section>
-</div>
+</div> 
+<div id="footer">
+        <div class="fcontent">
+            <div class="column">
+            <img src="https://cdn.discordapp.com/attachments/757590961839669339/1062822979240726719/kdmk.png" alt="LogoRVT">
+                <p>
+                    <strong>KMDK</strong>
+                    Is a Latvian workers cooperative based in RVT college.
+                </p>
+                <p>
+                    We've been making games since 2021 and we're going to keep on upgrading our games on PC.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
 </body>
 </html>

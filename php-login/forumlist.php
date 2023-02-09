@@ -65,8 +65,8 @@ if (isset($_GET["error"])) {
         echo"";
         echo "
         <ul id='comments-list' class='comments-list'>
-        <div class='comment-box'>
-        <div class='comment-head'>";
+            <div class='comment-box'>
+                <div class='comment-head'>";
         echo "<h6 class='comment-name by-author'>" . $row["useruid"] . "</h6>";?>
         <a href="forum.php?forumId=<?php echo $row["forumId"]; ?>" class="btn btn-success"><?php echo $row["title"]; ?></a>
         <?php echo "<p>"  . $row["text"] .  "</p>"; ?>
@@ -83,7 +83,7 @@ if (isset($_GET["error"])) {
         }?>
         <?php echo "</div>
         </div>
-        </div>";
+        </ul>";
 } 
 $result->free();
 $conn->close();
@@ -91,7 +91,7 @@ $conn->close();
             
         </div>       
     </section>
-
+</div> 
 <div id="footer">
         <div class="fcontent">
             <div class="column">

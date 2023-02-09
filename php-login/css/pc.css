@@ -77,6 +77,20 @@ body {
   max-width: 500px;
   margin: 0 auto 1%;
 }
+@media only screen and (max-width: 400px){
+.containerNews {
+  max-width: 300px;
+  margin: 0 auto 1%;
+  margin-bottom: 5%;
+}
+.fcontent {
+  max-width: 700px;
+  margin: auto;
+  column-count: 2;
+  -moz-column-count: 2;
+  font-size: 12px;
+}
+}
 .outside{
   display:block;
   margin-top:15px;
