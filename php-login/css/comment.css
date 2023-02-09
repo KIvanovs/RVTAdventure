@@ -214,6 +214,7 @@ ul {
  margin: 0 auto 1%;
  max-width: 500px;
  margin-bottom: 3%;
+ word-wrap: break-word;
 }
 
 @media only screen and (max-width: 400px){
@@ -221,6 +222,7 @@ ul {
     margin: 0 auto 1%;
     max-width: 300px;
     margin-bottom: 3%;
+    word-wrap: break-word;
    }
    .fcontent {
     max-width: 700px;
