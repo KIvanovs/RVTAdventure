@@ -25,7 +25,7 @@ include 'includes/updateF.inc.php';
 		           name="comment" 
 		           value='<?=$row["comment"] ?>' >
 		   </div>
-		   <input type="text" 
+		   <input type='text'
 		          name="FcommentId"
 		          value='<?=$row["FcommentId"]?>'
 		          hidden >

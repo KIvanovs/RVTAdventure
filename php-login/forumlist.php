@@ -3,8 +3,9 @@ include_once 'header.php';
 ?>
 <link rel="stylesheet" href="css/comment.css">
 <div class='double-background'>
-<section class='comment-form'>
-    <div class='container'>
+
+    <section class='comment-form'>
+        <div class='container'>
 
 <?php
 
@@ -44,18 +45,17 @@ if (isset($_GET["error"])) {
     }
 }   
 ?>
-    </div>
-</section>
+        </div>
+    </section>
 
 
 
-</section>
 
 
     <section>
     
         
-    <div class="comments-container">          
+        <div class="comments-container">          
     <?php
     require_once 'includes/dbh.inc.php';
     require_once 'includes/functions.inc.php';
@@ -89,9 +89,9 @@ $result->free();
 $conn->close();
 ?> 
             
-            </div>       
+        </div>       
     </section>
-</div>
+
 <div id="footer">
         <div class="fcontent">
             <div class="column">

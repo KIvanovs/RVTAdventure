@@ -32,7 +32,7 @@ include 'includes/updateFList.inc.php';
 		           name="text" 
 		           value='<?=$row["text"] ?>' >
 		   </div>
-		   <input type="text" 
+		   <input type='text'
 		          name="forumId"
 		          value='<?=$row["forumId"]?>'
 		          hidden >

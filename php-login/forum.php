@@ -3,7 +3,7 @@ include_once 'header.php';
 include 'includes/forum.inc.php';
 ?>
 <link rel="stylesheet" href="css/comment.css">
-
+<div class='double-background'>
     <section class='comment-form'>
     <div class='container'>
 
@@ -14,7 +14,7 @@ if (isset($_SESSION["useruid"])) {?>
     <h1>Add comment</h1>
     <p>Please fill in this form to create a comment.</p>
     <input type='text' name='comment' placeholder='your comment...'>
-    <input type="text" 
+    <input type='text' 
 		          name="forumId"
 		          value='<?=$row["forumId"]?>'
 		          hidden >
@@ -28,7 +28,7 @@ else if (isset($_SESSION["adminN"])) { ?>
     <h1>Add comment</h1>
     <p>Please fill in this form to create a comment.</p>
     <input type='text' name='comment' placeholder='your comment...'>
-    <input type="text" 
+    <input type='text' 
 		          name="forumId"
 		          value='<?=$row["forumId"]?>'
 		          hidden >        
@@ -92,6 +92,6 @@ $conn->close();
 ?> 
     </div>         
     </section>
-
+</div>
 </body>
 </html>
