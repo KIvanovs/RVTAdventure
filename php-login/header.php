@@ -31,6 +31,7 @@
             <!-- <li><a href="comment.php">COMMENTS</a></li> -->
             <li><a href='patchnotes.php'>PATCH NOTES</a></li>
             <li><a href='forumlist.php'>FORUM</a></li>
+            <li><a href='info.php'>INFO</a></li>
             
             <?php
             if (isset($_SESSION["useruid"])) {

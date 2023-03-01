@@ -73,6 +73,26 @@ body {
   
 }
 
+.info-container{
+  width: min(90%, 1140px);
+  margin: 1rem auto;
+  
+}
+
+.info-container h1{
+}
+
+.info-container h2{
+  font-size: 25px;
+}
+
+.info-container p{
+  font-size: 15px;
+}
+
+.info-container img{
+  width: 100%;
+}
 
 
 .container button{
